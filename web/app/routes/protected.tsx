@@ -13,6 +13,7 @@ export const loader: LoaderFunction = async (args) => {
 export default function ProtectedLayout() {
 	return (
 		<>
+			<p>Fuck off</p>
 			<Outlet />
 		</>
 	);
